@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "applovin-max-swift-package",
+      "identity" : "dtexchangesdk-ios-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "location" : "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
       "state" : {
-        "revision" : "b5acf713209298059bb2f09b22d84d523454bc7b",
-        "version" : "13.5.1"
+        "revision" : "aadb0c19b5c5a60a152811a7ada39f010a8f52e4",
+        "version" : "8.4.8"
       }
     }
   ],
