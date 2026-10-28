@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "REVUPMediaMaxAdapterDTExchange",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "REVUPMediaMaxAdapterDTExchange",
@@ -13,27 +13,21 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git", exact: "8.4.7")
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Fyber.git", exact: "8050100.0.0"),
     ],
     targets: [
         .target(
             name: "REVUPMediaMaxAdapterDTExchangeTarget",
             dependencies: [
                 .target(name: "REVUPMediaMaxAdapterDTExchange"),
-                .target(name: "AppLovinMediationFyberAdapter"),
-                .product(name: "DTExchangeSDK", package: "DTExchangeSDK-iOS-SPM"),
+                .product(name: "AppLovinMediationFyberAdapter", package: "AppLovin-MAX-Swift-Package-Fyber"),
             ],
             path: "Sources",
         ),
         .binaryTarget(
             name: "REVUPMediaMaxAdapterDTExchange",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.1/REVUPMediaMaxAdapterDTExchange.zip",
-            checksum: "a680b64d452fea7b4aeabbb05010dac9837d7c81cc7c842fb4fb933a547fbe2c"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.2.0/REVUPMediaMaxAdapterDTExchange.zip",
+            checksum: "7e83b8fe192d8f5bbfde808297cc8904eadb4a350d78d94daa0b9ce8edb7addc"
         ),
-        .binaryTarget(
-            name: "AppLovinMediationFyberAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/fyber-adapter/AppLovinMediationFyberAdapter-8.4.7.0.zip",
-            checksum: "eb779a6b34e8d19ebb5a1436a666332308cc559355c48063e6d202d0c850480b"
-        )
     ]
 )

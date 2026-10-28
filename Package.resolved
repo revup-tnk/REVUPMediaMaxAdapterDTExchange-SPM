@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "02544c3400d228cce5718e22f71f8d02787ba91e",
+        "version" : "13.6.4"
+      }
+    },
+    {
+      "identity" : "applovin-max-swift-package-fyber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Fyber.git",
+      "state" : {
+        "revision" : "b48e5a0a51927fa6368c463b0e524ed9722c158f",
+        "version" : "8050100.0.0"
+      }
+    },
+    {
       "identity" : "dtexchangesdk-ios-spm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
       "state" : {
-        "revision" : "b8e1d9dcbea2c8df8e342595e591ec78f235814d",
-        "version" : "8.4.7"
+        "revision" : "27f75bc8ce1909cba59849647e589d8dd05b8c91",
+        "version" : "8.5.1"
       }
     }
   ],
