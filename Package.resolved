@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Fyber.git",
       "state" : {
-        "revision" : "b48e5a0a51927fa6368c463b0e524ed9722c158f",
-        "version" : "8050100.0.0"
+        "revision" : "8d2c1edb91241a1033e670e399149500a4f28958",
+        "version" : "8050000.0.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
       "state" : {
-        "revision" : "27f75bc8ce1909cba59849647e589d8dd05b8c91",
-        "version" : "8.5.1"
+        "revision" : "45a053f52545ad4816e771435f964f6a091dc932",
+        "version" : "8.5.0"
       }
     }
   ],

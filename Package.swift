@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Fyber.git", exact: "8050100.0.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Fyber.git", exact: "8050000.0.0"),
     ],
     targets: [
         .target(
